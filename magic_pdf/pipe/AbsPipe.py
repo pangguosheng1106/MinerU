@@ -76,7 +76,6 @@ class AbsPipe(ABC):
                     pdf_meta['imgs_per_page'],
                     pdf_meta['text_layout_per_page'],
                     pdf_meta['invalid_chars'],
-                    pdf_meta['char_overlap_counter']
                 )
                 if is_text_pdf:
                     return AbsPipe.PIP_TXT
